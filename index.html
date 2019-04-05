@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- All empty links are intentional. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tiger Talks</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="showSlides1(), showSlides2()">
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.jpeg" alt="Tiger talks logo" /></a>
+    </div>
+
+    <button id="show_btn" onclick="toggleMenu()"> Menu </button>
+
+
+    <nav id="main_menu">
+      <ul id="menu">
+		    <li><a href="index.html"> HOME </a></li>
+        <li><a href="art.html"> ART </a></li>
+        <li><a href="techniques.html"> TECHNIQUES </a> </li>
+        <li><a href="supplies.html"> SUPPLIES </a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="#"><img src="images/search.png" alt="search icon"/></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="image_slider">
+      <div class="img_slides">
+            <a href="art.html"><img src="images/img1.jpg" alt="Wet on wet oil painting" /></a>
+            <div class="content">Lorem ipsum dolor sit amet</div>
+        </div>
+        <div class="img_slides">
+            <a href="techniques.html"><img src="images/img2.jpg" alt="Abstract painting" /> </a>
+            <div class="content">Lorem ipsum dolor sit amet</div>
+        </div>
+
+        <div class="img_slides">
+            <a href="supplies.html"><img src="images/img3.jpg" alt="Paint cans" /> </a>
+            <div class="content">Lorem ipsum dolor sit amet</div>
+        </div>
+        <div class="img_slides">
+            <img src="images/img4.jpg" alt="Sketch of a busy road" />
+            <!--<div class="content">Lorem ipsum dolor sit amet</div>-->
+        </div>
+    </div>
+
+	<div class ="latest_blogs">
+    <section class="left_container">
+      <div>
+      <h3>ART</h3>
+      <a href="#"><img src="images/art1.jpg" alt="street art of an owl"/></a>
+      <h4>ARTICLE TITLE</h4>
+      <p>Author name</p>
+      </div>
+
+      <div>
+      <a href="#"><img src="images/art2.jpg" alt="open field landscape sketch" /></a>
+      <h4>ARTICLE TITLE</h4>
+      <p>Author name</p>
+    </div>
+    </section>
+
+    <section class="center_container">
+      <div>
+      <h3>TECHNIQUES</h3>
+      <a href="#"><img src="images/tech1.jpg" alt="Realistic oil painting" /></a>
+      <h4>ARTICLE TITLE</h4>
+      <p>Author name</p>
+    </div>
+
+    <div>
+      <a href="#"><img src="images/tech2.jpg" alt="Pen sketch of a market street" /></a>
+      <h4>ARTICLE TITLE</h4>
+      <p>Author name</p>
+    </div>
+    </section>
+
+    <section class="right_container">
+      <div>
+      <h3>SUPPLIES</h3>
+      <a href="#"><img src="images/sup1.jpg" alt="close up picture of paint bottles" /></a>
+      <h4>ARTICLE TITLE</h4>
+      <p>Author name</p>
+    </div>
+
+    <div>
+      <a href="#"><img src="images/sup2.jpg" alt="art supplies displayed on the floor"/></a>
+      <h4>ARTICLE TITLE</h4>
+      <p>Author name</p>
+    </div>
+    </section>
+	</div>
+
+    <div class="artist_slider">
+      <div class="artist_slides">
+            <img src="images/img5.jpg" alt="artist painting a shore landscape"  />
+            <div class="content">Lorem ipsum dolor sit amet</div>
+        </div>
+        <div class="artist_slides">
+            <img src="images/img6.jpg" alt="atreet spray painting a wall" />
+            <div class="content">Lorem ipsum dolor sit amet</div>
+        </div>
+
+        <div class="artist_slides">
+            <img src="images/img7.jpg" alt="small eiffel tower paintings to the left by an artist painting another small painting"/>
+            <div class="content">Lorem ipsum dolor sit amet</div>
+        </div>
+        <div class="artist_slides">
+            <img src="images/img8.jpg" alt="an arist painting in the field"/>
+            <div class="content">Lorem ipsum dolor sit amet</div>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer_nav">
+      <nav>
+        <ul>
+          <li><a href="#"> SUBSCRIBE </a></li>
+          <li><a href="#"> HELP </a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="socialmedia_buttons">
+      <ul>
+      <li><a href="#"><img src="images/facebook.png" alt="facebook logo"/></a></li> <!-- links are empty by intention -->
+	  <li><a href="#"><img src="images/instagram.png" alt="instagram logo"/></a></li> <!-- links are empty by intention -->
+	  <li><a href="#"><img src="images/Twitter.png" alt="Twitter logo"/></a></li> <!-- links are empty by intention -->
+	  <li><a href="#"><img src="images/DeviantArt_Logo.png" alt="Deviant art logo"/></a></li> <!-- links are empty by intention -->
+	  </ul>
+	</div>
+
+    <div class="logo">
+      <a href="index.html"><img src ="images/logo.jpeg" alt="company logo"></a>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"> </script>
+    <script src="js/scripts.js"></script>
+  </footer>
+</body>
+</html>
